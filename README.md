@@ -6,9 +6,10 @@ This repository represents my current bootloader theme.
 
 ## Usage
 
-1. Copy the themes folder from this repository into your rEFInd directory within your EFI partition
-2. Edit your refind.conf file to include the initramfs-theme.conf file
-3. For windows and arch systems, point the icon to EFI/refind/themes/initramfs/icons/os_win.png or EFI/refind/themes/initramfs/icons/os_arch.png respectively.
+1. Copy the themes folder from this repository into your rEFInd directory within your EFI partition.
+2. Copy the initramfs-theme.conf to your rEFInd directory within your EFI partition.
+3. Edit your refind.conf file to include the initramfs-theme.conf file.
+4. For windows and arch systems, point the icon to EFI/refind/themes/initramfs/icons/os_win.png or EFI/refind/themes/initramfs/icons/os_arch.png respectively.
 
 Since rEFInd has no mechanism for a primary title, the title has been baked into the banner (background) file. A PSD file is provided containing both the raw background and the foreground title as seperate layers such that you can generate your own banner.png from that.
 Replace the file in themes/initramfs/banner.png
